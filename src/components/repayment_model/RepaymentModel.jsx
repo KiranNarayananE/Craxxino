@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { useSelector } from "react-redux";
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
-import RepaymentChart from "./repaymentChart";
+import RepaymentChart from "./RepaymentChart";
 
 Chart.register(CategoryScale);
 
